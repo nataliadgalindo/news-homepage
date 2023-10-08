@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (<https://your-solution-url.com>)
+- Solution URL: (<https://www.frontendmentor.io/solutions/responsive-news-homepage-made-with-react-grid-and-flexbox-injUKN9aKH>)
 - Live Site URL: (<https://news-homepage-grid.netlify.app/>)
 
 ## My process
