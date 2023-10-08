@@ -557,7 +557,7 @@ aside h3:hover {
 
 @media screen and (min-width: 1024px) {
   body {
-    padding: 2rem 0 3rem;
+    padding: 3rem 0 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
