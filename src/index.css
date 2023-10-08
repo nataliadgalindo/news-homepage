@@ -197,7 +197,7 @@ aside article {
   padding: 2rem 0 1rem;
 }
 
-.top-articles div {
+.top-articles li {
   display: flex;
   align-items: center;
   margin: 1.5rem 0;
@@ -208,12 +208,12 @@ aside article {
   margin-right: 15px;
 }
 
-.top-articles h3 {
+.top-articles strong {
   color: var(--grayish-blue);
   font-size: 2rem;
 }
 
-.top-articles h4 {
+.top-articles h3 {
   color: var(--very-dark-blue);
   font-size: 0.95rem;
   font-weight: 800;
@@ -228,7 +228,7 @@ button:hover {
 }
 
 nav li:hover,
-.top-articles h4:hover {
+.top-articles h3:hover {
   color: var(--soft-red);
 }
 
@@ -260,7 +260,7 @@ aside h3:hover {
     height: 50%;
   }
 
-  li {
+  nav li {
     margin: 1.5rem 0;
     font-size: 18px;
   }
@@ -362,11 +362,11 @@ aside h3:hover {
     width: 120px;
   }
 
-  .top-articles h3 {
+  .top-articles strong {
     font-size: 2.35rem;
   }
 
-  .top-articles h4 {
+  .top-articles h3 {
     font-size: 1.3rem;
     margin: 0.5rem 0;
   }
@@ -408,7 +408,7 @@ aside h3:hover {
     column-gap: 1rem;
   }
 
-  li {
+  nav li {
     font-size: 0.85rem;
     color: var(--dark-grayish-blue);
   }
@@ -507,15 +507,17 @@ aside h3:hover {
   /* top articles section */
 
   .top-articles {
+    margin-top: 3rem;
+    grid-area: top-articles;
+    padding: 0;
+  }
+  .top-articles ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0 1rem;
-    grid-area: top-articles;
-    padding: 0;
-    margin-top: 3rem;
   }
 
-  .top-articles div {
+  .top-articles li {
     margin: 0;
     padding: 0;
   }
@@ -525,11 +527,11 @@ aside h3:hover {
     margin-right: 15px;
   }
 
-  .top-articles h3 {
+  .top-articles h4 {
     font-size: 1.5rem;
   }
 
-  .top-articles h4 {
+  .top-articles h3 {
     font-size: 0.75rem;
     font-weight: 800;
     margin: 0.4rem 0;
@@ -629,8 +631,11 @@ aside h3:hover {
   /* top articles section */
 
   .top-articles {
-    gap: 0 1.5rem;
     margin-top: 4rem;
+  }
+
+  .top-articles ul {
+    gap: 0 1.5rem;
   }
 
   .top-articles img {
@@ -638,11 +643,11 @@ aside h3:hover {
     margin-right: 1rem;
   }
 
-  .top-articles h3 {
+  .top-articles h4 {
     font-size: 1.75rem;
   }
 
-  .top-articles h4 {
+  .top-articles h3 {
     font-size: 0.8rem;
   }
 
@@ -666,7 +671,7 @@ aside h3:hover {
     line-height: 1.5;
   }
 
-  li {
+  nav li {
     font-size: 1rem;
   }
 
@@ -728,7 +733,7 @@ aside h3:hover {
 
   /* top articles section */
 
-  .top-articles {
+  .top-articles ul {
     gap: 0 1.75rem;
   }
 
@@ -737,11 +742,11 @@ aside h3:hover {
     margin-right: 1.4rem;
   }
 
-  .top-articles h3 {
+  .top-articles h4 {
     font-size: 2.25rem;
   }
 
-  .top-articles h4 {
+  .top-articles h3 {
     font-size: 1.25rem;
     margin: 0.6rem 0;
   }
