@@ -40,19 +40,21 @@ function App() {
         </aside>
 
         <div className="top-articles">
-          {topArticles.map(({ img, title, desc }, i) => {
-            return (
-              <div key={i} className={`top-article-${i + 1}`}>
-                <img src={img} alt="" />
+          <ul>
+            {topArticles.map(({ img, title, desc }, i) => {
+              return (
+                <li key={i} className={`top-article-${i + 1}`}>
+                  <img src={img} alt="" />
 
-                <article>
-                  <h3>0{i + 1}</h3>
-                  <h4>{title}</h4>
-                  <p>{desc}</p>
-                </article>
-              </div>
-            )
-          })}
+                  <article>
+                    <strong>0{i + 1}</strong>
+                    <h3>{title}</h3>
+                    <p>{desc}</p>
+                  </article>
+                </li>
+              )
+            })}
+          </ul>
         </div>
       </div>
     </div>
