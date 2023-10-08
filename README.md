@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot of my news homepage solution](/assets/images/news-homepage.jpeg)
+![screenshot of my news homepage solution](/public/assets/images/news-homepage.jpeg)
 
 ### Links
 
